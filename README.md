@@ -2,8 +2,6 @@
 
 Sincroniza playlists do Spotify com uma pen USB.
 
----
-
 ## Requisitos
 
 * Python 3.8 ou superior
@@ -11,16 +9,9 @@ Sincroniza playlists do Spotify com uma pen USB.
 * Conta Spotify (gratuita ou premium)
 
 ---
+## Dependências
 
-## Instalação
-
-### Python
-
-Download em: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-
-### Dependências
-
-Abrir o terminal (Linha de Comandos) e executar:
+Abrir o terminal e executar:
 
 ```
 pip install spotipy yt-dlp
@@ -29,19 +20,16 @@ pip install spotipy yt-dlp
 ### FFmpeg
 
 **Windows:**
-
 1. Descarregar de: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
 2. Extrair o ficheiro
 3. Adicionar a pasta `bin` ao PATH
 
 **Linux:**
-
 ```
 sudo apt-get install ffmpeg
 ```
 
 **macOS:**
-
 ```
 brew install ffmpeg
 ```
@@ -60,7 +48,6 @@ brew install ffmpeg
 6. Guardar
 7. Copiar Client ID e Client Secret
 
----
 
 ### Script
 
@@ -76,8 +63,6 @@ CONFIG = {
     ],
 }
 ```
-
----
 
 ### Pen USB
 
@@ -124,40 +109,8 @@ D:/
 │   ├── Artista - Música.mp3
 ```
 
----
-
-## Problemas comuns
-
-**FFmpeg em falta**
-
-* Instalar FFmpeg e adicionar ao PATH
-
-**Pen não detetada**
-
-* Confirmar ligação e caminho configurado
-
-**Erro Spotify**
-
-* Verificar credenciais e Redirect URI
-
----
-
-## Ficheiros
-
-* `spotify_pen_sync.py` — script principal
-* `sync_log.txt` — logs
-* `.spotify_cache` — autenticação
-
----
-
 ## Notas
 
 * Não guarda músicas localmente
 * Download via YouTube convertido para MP3
 * Qualidade: 192 kbps
-
----
-
-## Suporte
-
-Consultar `sync_log.txt` para diagnóstico
