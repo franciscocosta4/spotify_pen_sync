@@ -1,13 +1,12 @@
+<div align="center">
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=for-the-badge&labelColor=171717&logoColor=5cb85c)
+
 # Spotify Pen Sync
 
 Sincroniza playlists do Spotify com uma pen USB.
 
-## Requisitos
-
-* Python 3.8 ou superior
-* Pen USB ligada ao computador
-* Conta Spotify (gratuita ou premium)
-
+</div>
+    
 ---
 ## Dependências
 
